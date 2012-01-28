@@ -13,17 +13,7 @@ to the point at which the lesson should start.
     * Start to understand algorithmic thinking
     * Skip any code reviews, just get comfortable with the code.
     * Duration: however long needed
-2. Drawing with the canvas
-    * Write a few simple apps to create: line, circle, box, image
-    * Understand the basics of using HTML and an API for creating more complex
-      programs
-    * Duration: ~1wk
-3. Animating with the canvas
-    * Write an app to bounce an image around the screen
-    * Understand the basics of modeling an environment (boundaries of the
-      screen) and timed animations.
-    * Duration: ~1wk
-4. Testing a calculator
+2. Testing a calculator
     * Given a calculator program, write tests that ensure it works. There are
       errors in the program that need to be found and fixed. Each fix should
       have a test that was seen to fail because of the error and now passes
@@ -31,7 +21,7 @@ to the point at which the lesson should start.
     * Understand how testing can be used to explore an existing program. 
     * Understand how testing is involved in protecting the quality of software.
     * Duration: ~2wks
-5. Writting and testing a calculator language
+3. Writting and testing a calculator language
     * Using the calculator that was tested before write a program to take the
       description of a calculation (in a simple language), run the calculation,
       and report the result back.
@@ -40,6 +30,16 @@ to the point at which the lesson should start.
     * Understand basics of language parsing and interpretation
     * Understand using tests to guide the creation of software
     * Duration: ~2wks
+4. Drawing with the canvas
+    * Write a few simple apps to create: line, circle, box, image
+    * Understand the basics of using HTML and an API for creating more complex
+      programs
+    * Duration: ~1wk
+5. Animating with the canvas
+    * Write an app to bounce an image around the screen
+    * Understand the basics of modeling an environment (boundaries of the
+      screen) and timed animations.
+    * Duration: ~1wk
 6. Major project: Logo interpreter
     * Make your own scratch-like system (using a text language rather than the
       nifty graphical one scratch has).
