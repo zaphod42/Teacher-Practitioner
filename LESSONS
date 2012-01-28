@@ -40,7 +40,12 @@ to the point at which the lesson should start.
     * Understand the basics of modeling an environment (boundaries of the
       screen) and timed animations.
     * Duration: ~1wk
-6. Major project: Logo interpreter
+6. Responding to events
+    * Write an app that animates selected characters. User can select things by
+      clicking on things in the UI.
+    * Understand event handling and abstracting UI from model.
+    * Duraction: ~1wk
+7. Major project: Logo interpreter
     * Make your own scratch-like system (using a text language rather than the
       nifty graphical one scratch has).
     * TODO: Split into smaller parts
