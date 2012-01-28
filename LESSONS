@@ -1,0 +1,26 @@
+Lesson Plan
+
+After each lesson the code will be discussed and reviewed. Different ways of solving the problem will be discussed and tried.
+
+1. Get started with codecademy.
+    * Learn the basics of javascript (conditionals, variables, functions)
+    * Understand how to run a simple program and interpret results
+    * Start to understand algorithmic thinking
+2. Drawing with the canvas
+    * Write a few simple apps to create: line, circle, box, image
+    * Understand the basics of using HTML and an API for creating more complex programs
+3. Animating with the canvas
+    * Write an app to bounce an image around the screen
+    * Understand the basics of modeling an environment (boundaries of the screen) and timed animations.
+4. Testing a calculator
+    * Given a calculator program, write tests that ensure it works. There are errors in the program that need to be found and fixed. Each fix should have a test that was seen to fail because of the error and now passes because of the fix.
+    * Understand how testing can be used to explore an existing program. 
+    * Understand how testing is involved in protecting the quality of software.
+5. Writting and testing a calculator language
+    * Using the calculator that was tested before write a program to take the description of a calculation (in a simple language), run the calculation, and report the result back.
+    * Tests should be written first, before the implementation
+    * Understand basics of string manipulation 
+    * Understand basics of language parsing and interpretation
+    * Understand using tests to guide the creation of software
+6. Major project: Logo interpreter
+X. Final project: Phone app for the school
