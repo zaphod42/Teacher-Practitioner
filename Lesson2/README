@@ -1,0 +1,28 @@
+Lesson 2: Testing a Calculator
+
+In this lesson you are provided with an implementation of a calculator along
+with a test suite. The test suite has a failing test already and your first
+task is to figure out what is wrong with the calculator and fix the problem to
+make the test pass. Once all of the given tests are passing you'll need to
+expand the test coverage so that other aspects of the calculator are tested.
+
+== About the calculator ==
+
+The calculator is an of the Reverse Polish Notation (RPN) style. This is a
+style of calculator that was made popular by the HP48g calculators that I used
+when I was in High School. The calculation method is fairly simple and easy to
+work with once you get the hang of it. Unlike most calculators in which the
+user enters a number, and operation, and another number and then the calculator
+either immediately shows the result of that computation or the user presses the
+equals key to see the result, RPN calculators use something called a stack to
+track operations.
+
+For example, the sequence of keys pressed to add the numbers 12 and 6 in the
+two styles is:
+  * Standard: 1, 2, +, 6, =
+  * RPN: 1, 2, <enter>, 6, +
+
+What happens in an RPN calculator is that every value (i.e. number) is placed
+on a stack. Each operation (i.e. addition, subtraction, multiplication, etc.)
+removes however many number it requires from the top of the stack, calculates
+its result, and then puts its result on the top of the stack.
